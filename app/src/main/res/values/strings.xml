@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Yanma</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text1">Bienvenidos a una ciudad que inspira, florece y se transforma todos los días</string>
+    <string name="text2">Son muchos los motivos que hacen de Medellín un destino turístico privilegiado; la ciudad de la eterna primavera es, en sí misma, un motivo: lo es su topografía, un valle entre montañas, su clima primaveral y la calidez de los paisas</string>
+    <string name="text3">Medellín, la capital del departamento de Antioquia, tiene un clima agradable que ronda los 24 °C; cuenta con modernos sistemas de transporte como el Metro, Metrocable y Tranvia</string>
+    <string name="text4">Desde las montañas que rodean la capital de Antioquia se observa cómo el río Medellín corre paralelo al Metro, que conecta varios puntos de esta ciudad, en la que abundan parques, bibliotecas, museos y espacios públicos donde tienen lugar diversos eventos culturales.</string>
+    <string name="text5">El maíz y el fríjol, junto con carnes y pescados, son importantes en la cocina antioqueña. Se destaca la bandeja paisa, conocida también como típico montañero y cuya receta original tiene quince ingredientes.  </string>
+    <string name="text6">Restaurantes</string>
+    <string name="text7">En Medellín son muchos y muy variados los lugares donde el paladar puede dar rienda suelta a la exigencia, pues, sea cual fuere el antojo, siempre encontrará respuesta para colmarlo.</string>
+    <string name="text8">Siendo la segunda ciudad más grande de Colombia, con la reputación de albergar a la población más linda del país, disfrutar de la vida nocturna y de "La Fiesta Paisa" es algo que se debe hacer cuando se visita esta vibrante ciudad.</string>
+
+</resources>
