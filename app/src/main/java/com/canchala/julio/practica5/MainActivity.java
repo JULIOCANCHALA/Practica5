@@ -11,12 +11,15 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity implements ActionBar.TabListener, ViewPager.OnPageChangeListener {
 
+
     private ViewPager mViewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         PagerAdapter adapter=new PagerAdapter(getSupportFragmentManager());
         mViewPager=(ViewPager)findViewById(R.id.pager);
@@ -30,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
         actionBar.addTab(tab);
         tab=actionBar.newTab().setIcon(R.drawable.ic_local_dining_white_36dp).setTabListener(this);
         actionBar.addTab(tab);
+        /*
         tab=actionBar.newTab().setIcon(R.drawable.ic_local_bar_white_36dp).setTabListener(this);
         actionBar.addTab(tab);
         tab=actionBar.newTab().setIcon(R.drawable.ic_explore_white_36dp).setTabListener(this);
@@ -38,7 +42,13 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
         actionBar.addTab(tab);
         tab=actionBar.newTab().setIcon(R.drawable.ic_teatro).setTabListener(this);
         actionBar.addTab(tab);
+        */
+
+
+
     }
+
+
 
     @Override
     public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
@@ -83,15 +93,17 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
                 case 0:
                 return new inicio();
                 case 1:
-                    return new comida();
+                    return new Comida();
+                /*
                 case 2:
-                    return new rumba();
+                    return new Rumba();
                 case 3:
-                    return new lugares();
+                    return new Lugares();
                 case 4:
-                    return new cine();
+                    return new Cine();
                 case 5:
-                    return new teatro();
+                    return new Teatro();
+                    */
                 default:
                     return null;
             }
@@ -100,8 +112,10 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
 
         @Override
         public int getCount() {
-            return 6;
+            return 2;
         }
     }
+
+
 
 }

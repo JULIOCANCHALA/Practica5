@@ -12,4 +12,54 @@
     <string name="text7">En Medellín son muchos y muy variados los lugares donde el paladar puede dar rienda suelta a la exigencia, pues, sea cual fuere el antojo, siempre encontrará respuesta para colmarlo.</string>
     <string name="text8">Siendo la segunda ciudad más grande de Colombia, con la reputación de albergar a la población más linda del país, disfrutar de la vida nocturna y de "La Fiesta Paisa" es algo que se debe hacer cuando se visita esta vibrante ciudad.</string>
 
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+
+    <string-array name="restaurantes">
+        <item>360 BISTRU</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="tiporestaurantes">
+        <item>Cocina Internacional</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="direccionrestaurantes">
+        <item>Carrera 43A No. 1-50 Local 360</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="telefonorestaurantes">
+        <item>57(4) 326 21 30</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/bistro360</item>
+        <item>@drawable/tutorials</item>
+        <item>@drawable/app</item>
+        <item>@drawable/os</item>
+        <item>@drawable/tool</item>
+        <item>@drawable/about</item>
+    </array>
+
+
 </resources>
