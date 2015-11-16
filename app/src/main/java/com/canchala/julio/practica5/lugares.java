@@ -1,16 +1,16 @@
 package com.canchala.julio.practica5;
 
-import android.os.Bundle;
 
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+public class lugares extends Fragment {
 
-public class SitiosTuristicos extends Fragment {
 
-    public SitiosTuristicos() {
+    public lugares() {
         // Required empty public constructor
     }
 
@@ -18,6 +18,6 @@ public class SitiosTuristicos extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sitios_turisticos, container, false);
+        return inflater.inflate(R.layout.fragment_lugares, container, false);
     }
 }

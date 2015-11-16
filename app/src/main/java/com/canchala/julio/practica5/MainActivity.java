@@ -1,7 +1,5 @@
 package com.canchala.julio.practica5;
 
-
-import android.app.FragmentTransaction;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -9,8 +7,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.view.Window;
+
 
 public class MainActivity extends AppCompatActivity implements ActionBar.TabListener, ViewPager.OnPageChangeListener {
 
@@ -41,7 +38,6 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
         actionBar.addTab(tab);
         tab=actionBar.newTab().setIcon(R.drawable.ic_teatro).setTabListener(this);
         actionBar.addTab(tab);
-
     }
 
     @Override
@@ -85,17 +81,17 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
             switch (position)
             {
                 case 0:
-                    return new Inicio();
+                return new inicio();
                 case 1:
-                    return new Comida();
+                    return new comida();
                 case 2:
-                    return new Rumba();
+                    return new rumba();
                 case 3:
-                    return new SitiosTuristicos();
+                    return new lugares();
                 case 4:
-                    return new Cine();
+                    return new cine();
                 case 5:
-                    return new Teatro();
+                    return new teatro();
                 default:
                     return null;
             }

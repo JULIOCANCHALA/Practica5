@@ -1,16 +1,16 @@
 package com.canchala.julio.practica5;
 
+
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+public class teatro extends Fragment {
 
 
-public class Teatro extends Fragment {
-
-    public Teatro() {
+    public teatro() {
         // Required empty public constructor
     }
 

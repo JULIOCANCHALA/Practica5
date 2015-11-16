@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Yanma</string>
+    <string name="app_name">Jara</string>
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="text1">Bienvenidos a una ciudad que inspira, florece y se transforma todos los días</string>
+    <string name="text1">Ciudad que inspira, florece y se transforma todos los días</string>
     <string name="text2">Son muchos los motivos que hacen de Medellín un destino turístico privilegiado; la ciudad de la eterna primavera es, en sí misma, un motivo: lo es su topografía, un valle entre montañas, su clima primaveral y la calidez de los paisas</string>
     <string name="text3">Medellín, la capital del departamento de Antioquia, tiene un clima agradable que ronda los 24 °C; cuenta con modernos sistemas de transporte como el Metro, Metrocable y Tranvia</string>
     <string name="text4">Desde las montañas que rodean la capital de Antioquia se observa cómo el río Medellín corre paralelo al Metro, que conecta varios puntos de esta ciudad, en la que abundan parques, bibliotecas, museos y espacios públicos donde tienen lugar diversos eventos culturales.</string>
