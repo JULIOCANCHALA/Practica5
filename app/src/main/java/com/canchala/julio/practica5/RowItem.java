@@ -2,57 +2,34 @@ package com.canchala.julio.practica5;
 
 public class RowItem {
 
-	private String nombre;
-	private String tipo;
-	private String direc;
-	private String telefono;
+	private String text1;
+	private String text2;
+	private String text3;
+	private String text4;
 	private int icon;
 
-	public RowItem(String nombre, String tipo, String direc, String telefono, int icon) {
-		this.nombre = nombre;
-		this.tipo = tipo;
-		this.direc = direc;
-		this.telefono = telefono;
+	public RowItem(String text1, String text2, String text3, String text4,int icon) {
+		this.text1 = text1;
+		this.text2 = text2;
+		this.text3 = text3;
+		this.text4 = text4;
+
 		this.icon = icon;
 	}
 
-	public String getNombre() {
-		return nombre;
+	public String getText1() {return text1;	}
+
+	public String getText2() {
+		return text2;
 	}
 
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
+	public String getText3() {
+		return text3;
 	}
 
-	public String getTipo() {
-		return tipo;
-	}
-
-	public void setTipo(String tipo) {
-		this.tipo = tipo;
-	}
-
-	public String getDirec() {
-		return direc;
-	}
-
-	public void setDirec(String direc) {
-		this.direc = direc;
-	}
-
-	public String getTelefono() {
-		return telefono;
-	}
-
-	public void setTelefono(String telefono) {
-		this.telefono = telefono;
-	}
+	public String getText4() {return text4;	}
 
 	public int getIcon() {
 		return icon;
-	}
-
-	public void setIcon(int icon) {
-		this.icon = icon;
 	}
 }

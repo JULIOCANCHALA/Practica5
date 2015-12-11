@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Jara</string>
 
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="text1">Ciudad que inspira, florece y se transforma todos los días</string>
     <string name="text2">Son muchos los motivos que hacen de Medellín un destino turístico privilegiado; la ciudad de la eterna primavera es, en sí misma, un motivo: lo es su topografía, un valle entre montañas, su clima primaveral y la calidez de los paisas</string>
@@ -15,51 +15,148 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
+    //RESTAURANTES*****************
 
     <string-array name="restaurantes">
-        <item>360 BISTRU</item>
-        <item>-</item>
-        <item>-</item>
-        <item>-</item>
-        <item>-</item>
-        <item>-</item>
+        <item>Bariloche Parrilla Argentina</item>
+        <item>El Village Restaurante</item>
+        <item>Cambria Cafe Resto</item>
+        <item>Malevo</item>
+        <item>Formosa</item>
+        <item>La Provincia</item>
     </string-array>
 
     <string-array name="tiporestaurantes">
-        <item>Cocina Internacional</item>
-        <item>-</item>
-        <item>-</item>
-        <item>-</item>
-        <item>-</item>
-        <item>-</item>
+        <item>Parrilla, Pasta</item>
+        <item>Mediterránea, Fusión</item>
+        <item>Francesa, Internacional</item>
+        <item>Parrilla, Bar de vinos</item>
+        <item>China, Japonesa, Taiwanesa</item>
+        <item>Francesa, Mediterránea</item>
     </string-array>
 
     <string-array name="direccionrestaurantes">
-        <item>Carrera 43A No. 1-50 Local 360</item>
-        <item>-</item>
-        <item>-</item>
-        <item>-</item>
-        <item>-</item>
-        <item>-</item>
+        <item>Calle 20sur # 38-181</item>
+        <item>Carrera 37a # 8a - 33</item>
+        <item>Carrera 43 E</item>
+        <item>Calle 11A # 43e-32</item>
+        <item>Cra 35 # 7 - 52</item>
+        <item>Calle 4sur # 43a -179</item>
     </string-array>
 
     <string-array name="telefonorestaurantes">
-        <item>57(4) 326 21 30</item>
-        <item>-</item>
-        <item>-</item>
-        <item>-</item>
-        <item>-</item>
-        <item>-</item>
+        <item>+(57)3137605</item>
+        <item>+(57)3225020</item>
+        <item>+(57)3521970</item>
+        <item>+(57)5802150</item>
+        <item>+(57)3118789</item>
+        <item>+(57)3119630</item>
+    </string-array>
+
+    <string-array name="preciorestaurantes">
+        <item>$22.364 - $35.144</item>
+        <item>$9.585 - $79.872</item>
+        <item>$6.390 - $31.949 </item>
+        <item>$79.872 - $99.041</item>
+        <item>$9.585 - $25.559</item>
+        <item>$79.872 - $319.489</item>
     </string-array>
 
     <array name="icons">
-        <item>@drawable/bistro360</item>
-        <item>@drawable/tutorials</item>
-        <item>@drawable/app</item>
-        <item>@drawable/os</item>
-        <item>@drawable/tool</item>
-        <item>@drawable/about</item>
+        <item>@drawable/bariloche</item>
+        <item>@drawable/village</item>
+        <item>@drawable/cambria</item>
+        <item>@drawable/malevo</item>
+        <item>@drawable/formosa</item>
+        <item>@drawable/provincia</item>
     </array>
+
+    <string-array name="lat_restaurantes">
+        <item>6.1817652</item>
+        <item>6.207767</item>
+        <item>6.2141366</item>
+        <item>6.2136584</item>
+        <item>6.2065176</item>
+        <item>6.2039781</item>
+    </string-array>
+
+    <string-array name="lon_restaurantes">
+        <item>-75.5670219</item>
+        <item>-75.5678656</item>
+        <item>-75.5728691</item>
+        <item>-75.5738281</item>
+        <item>-75.5656391</item>
+        <item>-75.5788149</item>
+    </string-array>
+
+    //BARES*****************
+
+    <string-array name="bares">
+        <item>Fonda la Chismosa</item>
+        <item>Trip Super Club</item>
+        <item>Fonda Oye Bonita</item>
+        <item>La Tienda de la 70</item>
+        <item>Fonda Los Chiflados</item>
+        <item>Dulce Jesus Mio</item>
+    </string-array>
+
+    <string-array name="zonabares">
+        <item>Parque Lleras</item>
+        <item>Parque Lleras</item>
+        <item>La 70</item>
+        <item>La 70</item>
+        <item>Vía Las Palmas</item>
+        <item>Vía Las Palmas</item>
+    </string-array>
+
+    <string-array name="direccionbares">
+        <item>Calle 10 # 41-43</item>
+        <item>Carrera 38 # 8-83</item>
+        <item>Carrera 70 Circular 4-11</item>
+        <item>Carrera 70 Circular 3–28</item>
+        <item>Carrera 38 # 19-255</item>
+        <item>Carrera 38 # 19-255</item>
+    </string-array>
+
+    <string-array name="telefonobares">
+        <item>3116252334</item>
+        <item>3006407170</item>
+        <item>3116252334</item>
+        <item>3116252334</item>
+        <item>3116252334</item>
+        <item>3116252334</item>
+    </string-array>
+
+    <array name="iconsbares">
+        <item>@drawable/fondalachismosa</item>
+        <item>@drawable/trip</item>
+        <item>@drawable/oyebonita</item>
+        <item>@drawable/latienda</item>
+        <item>@drawable/loschiflados</item>
+        <item>@drawable/jesusmio</item>
+    </array>
+
+    <string-array name="lat_bares">
+        <item>6.210094</item>
+        <item>6.208177</item>
+        <item>6.246642</item>
+        <item>6.246111</item>
+        <item>6.222551</item>
+        <item>6.223104</item>
+    </string-array>
+
+    <string-array name="lon_bares">
+        <item>-75.569103</item>
+        <item>-75.567883</item>
+        <item>-75.589175</item>
+        <item>-75.589196</item>
+        <item>-75.565260</item>
+        <item>-75.565330</item>
+    </string-array>
+
+
+
+    <string name="title_activity_maps">Map</string>
 
 
 </resources>

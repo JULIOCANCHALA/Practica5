@@ -49,22 +49,19 @@ public class CustomAdapter extends BaseAdapter {
 			convertView = mInflater.inflate(R.layout.list_item, null);
 		}
 
-		TextView nombre = (TextView) convertView.findViewById(R.id.nombre);
-		TextView tipo = (TextView) convertView.findViewById(R.id.tipo);
-		TextView direc = (TextView) convertView.findViewById(R.id.ubicacion);
-		TextView telefono = (TextView) convertView.findViewById(R.id.telefono);
-
+		TextView txt1 = (TextView) convertView.findViewById(R.id.text1);
+		TextView txt2 = (TextView) convertView.findViewById(R.id.text2);
+		TextView txt3 = (TextView) convertView.findViewById(R.id.text3);
+		TextView txt4 = (TextView) convertView.findViewById(R.id.text4);
 		ImageView imgIcon = (ImageView) convertView.findViewById(R.id.icon);
-
 
 		RowItem row_pos = rowItem.get(position);
 		// setting the image resource and title
 
-		nombre.setText(row_pos.getNombre());
-		tipo.setText(row_pos.getTipo());
-		direc.setText(row_pos.getDirec());
-		telefono.setText(row_pos.getTelefono());
-
+		txt1.setText(row_pos.getText1());
+		txt2.setText(row_pos.getText2());
+		txt3.setText(row_pos.getText3());
+		txt4.setText(row_pos.getText4());
 		imgIcon.setImageResource(row_pos.getIcon());
 
 

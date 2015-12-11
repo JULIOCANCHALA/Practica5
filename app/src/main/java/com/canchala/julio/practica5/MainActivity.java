@@ -1,8 +1,10 @@
 package com.canchala.julio.practica5;
 
+
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -14,11 +16,11 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
 
     private ViewPager mViewPager;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
 
         PagerAdapter adapter=new PagerAdapter(getSupportFragmentManager());
@@ -33,7 +35,6 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
         actionBar.addTab(tab);
         tab=actionBar.newTab().setIcon(R.drawable.ic_local_dining_white_36dp).setTabListener(this);
         actionBar.addTab(tab);
-        /*
         tab=actionBar.newTab().setIcon(R.drawable.ic_local_bar_white_36dp).setTabListener(this);
         actionBar.addTab(tab);
         tab=actionBar.newTab().setIcon(R.drawable.ic_explore_white_36dp).setTabListener(this);
@@ -42,9 +43,6 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
         actionBar.addTab(tab);
         tab=actionBar.newTab().setIcon(R.drawable.ic_teatro).setTabListener(this);
         actionBar.addTab(tab);
-        */
-
-
 
     }
 
@@ -94,7 +92,6 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
                 return new inicio();
                 case 1:
                     return new Comida();
-                /*
                 case 2:
                     return new Rumba();
                 case 3:
@@ -103,7 +100,7 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
                     return new Cine();
                 case 5:
                     return new Teatro();
-                    */
+
                 default:
                     return null;
             }
@@ -112,7 +109,7 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
 
         @Override
         public int getCount() {
-            return 2;
+            return 6;
         }
     }
 
