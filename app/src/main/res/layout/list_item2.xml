@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/ltext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catedral Basílica Metropolitana de la Inmaculada Concepción de María"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/col7"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/ltext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Su construcción fue  iniciada en 1875 y finalizada en 1930, gracias a la intervención del arquitecto francés Carlos Carré."
+        android:textColor="@color/col1"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+
+            >
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/direccion"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                />
+            <TextView
+                android:id="@+id/ltext3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dirección"
+                android:textColor="@color/col6"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/telefono"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                />
+
+            <TextView
+                android:id="@+id/ltext4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefono"
+                android:textColor="@color/col6"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/licon"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/catedral"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/licon2"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/catedral2"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+        </LinearLayout>
+</LinearLayout>

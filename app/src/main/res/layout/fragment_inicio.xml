@@ -29,7 +29,6 @@
             android:background="@color/col6"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
-
             >
         </LinearLayout>
 
@@ -42,6 +41,8 @@
             tools:context="com.canchala.julio.practica5.Inicio"
             android:background="@color/col4"
             >
+
+
 
             <TextView
                 android:layout_width="fill_parent"

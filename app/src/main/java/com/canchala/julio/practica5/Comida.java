@@ -20,7 +20,6 @@ public class Comida extends ListFragment implements OnItemClickListener {
 	String[] tipo;
 	String[] ubicacion;
 	String[] telefono;
-	String[] precio;
 	String[] latitud;
 	String[] longitud;
 	TypedArray menuIcons;

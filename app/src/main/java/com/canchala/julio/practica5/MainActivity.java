@@ -33,11 +33,11 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
 
         ActionBar.Tab tab=actionBar.newTab().setIcon(R.drawable.ic_favorite_white_36dp).setTabListener(this);
         actionBar.addTab(tab);
+        tab=actionBar.newTab().setIcon(R.drawable.ic_explore_white_36dp).setTabListener(this);
+        actionBar.addTab(tab);
         tab=actionBar.newTab().setIcon(R.drawable.ic_local_dining_white_36dp).setTabListener(this);
         actionBar.addTab(tab);
         tab=actionBar.newTab().setIcon(R.drawable.ic_local_bar_white_36dp).setTabListener(this);
-        actionBar.addTab(tab);
-        tab=actionBar.newTab().setIcon(R.drawable.ic_explore_white_36dp).setTabListener(this);
         actionBar.addTab(tab);
         tab=actionBar.newTab().setIcon(R.drawable.ic_local_movies_white_36dp).setTabListener(this);
         actionBar.addTab(tab);
@@ -91,11 +91,11 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
                 case 0:
                 return new inicio();
                 case 1:
-                    return new Comida();
-                case 2:
-                    return new Rumba();
-                case 3:
                     return new Lugares();
+                case 2:
+                    return new Comida();
+                case 3:
+                    return new Rumba();
                 case 4:
                     return new Cine();
                 case 5:

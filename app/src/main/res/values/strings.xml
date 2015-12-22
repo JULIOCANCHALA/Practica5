@@ -2,18 +2,14 @@
     <string name="app_name">Jara</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="text1">Ciudad que inspira, florece y se transforma todos los días</string>
     <string name="text2">Son muchos los motivos que hacen de Medellín un destino turístico privilegiado; la ciudad de la eterna primavera es, en sí misma, un motivo: lo es su topografía, un valle entre montañas, su clima primaveral y la calidez de los paisas</string>
     <string name="text3">Medellín, la capital del departamento de Antioquia, tiene un clima agradable que ronda los 24 °C; cuenta con modernos sistemas de transporte como el Metro, Metrocable y Tranvia</string>
     <string name="text4">Desde las montañas que rodean la capital de Antioquia se observa cómo el río Medellín corre paralelo al Metro, que conecta varios puntos de esta ciudad, en la que abundan parques, bibliotecas, museos y espacios públicos donde tienen lugar diversos eventos culturales.</string>
-    <string name="text5">El maíz y el fríjol, junto con carnes y pescados, son importantes en la cocina antioqueña. Se destaca la bandeja paisa, conocida también como típico montañero y cuya receta original tiene quince ingredientes.  </string>
-    <string name="text6">Restaurantes</string>
-    <string name="text7">En Medellín son muchos y muy variados los lugares donde el paladar puede dar rienda suelta a la exigencia, pues, sea cual fuere el antojo, siempre encontrará respuesta para colmarlo.</string>
-    <string name="text8">Siendo la segunda ciudad más grande de Colombia, con la reputación de albergar a la población más linda del país, disfrutar de la vida nocturna y de "La Fiesta Paisa" es algo que se debe hacer cuando se visita esta vibrante ciudad.</string>
 
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
 
     //RESTAURANTES*****************
 
@@ -51,15 +47,6 @@
         <item>+(57)5802150</item>
         <item>+(57)3118789</item>
         <item>+(57)3119630</item>
-    </string-array>
-
-    <string-array name="preciorestaurantes">
-        <item>$22.364 - $35.144</item>
-        <item>$9.585 - $79.872</item>
-        <item>$6.390 - $31.949 </item>
-        <item>$79.872 - $99.041</item>
-        <item>$9.585 - $25.559</item>
-        <item>$79.872 - $319.489</item>
     </string-array>
 
     <array name="icons">
@@ -154,9 +141,213 @@
         <item>-75.565330</item>
     </string-array>
 
+    //LUGARES******************
+
+    <string-array name="lugar">
+        <item>Catedral Basílica Metropolitana</item>
+        <item>Acuario Parque Explora</item>
+        <item>Parque Regional Ecoturístico Arví</item>
+        <item>Jardín Botánico de Medellín</item>
+        <item>Parque de la Vida</item>
+        <item>Plaza Botero</item>
+    </string-array>
+
+    <string-array name="infolugar">
+        <item>Su construcción fue  iniciada en 1875 y finalizada en 1930, gracias a la intervención del arquitecto francés Carlos Carré.</item>
+        <item>Es el acuario con la colección de peces de agua dulce más grande de Latinoamérica.</item>
+        <item>Este parque es una propuesta ecoturística de conservación ambiental y turismo para promover las potencialidades y fortalezas del corregimiento de Santa Elena.</item>
+        <item>El Jardín Botánico de Medellín es un lugar donde la naturaleza es el centro de atención y el alma de este museo.</item>
+        <item>El Parque de la Vida es un espacio abierto y creativo para el encuentro y el diálogo de saberes. </item>
+        <item>El Parque de las Esculturas en Medellín es un museo expuesto al aire libre, ubicado en el corazón de la ciudad.</item>
+    </string-array>
+
+    <string-array name="direccionlugar">
+        <item>Carrera 48 # 56-81</item>
+        <item>Carrera 52 # 73-75</item>
+        <item>Via a Piedras Blancas, Antioquia</item>
+        <item>Carrera 52 # 73-298</item>
+        <item>Carrera. 51d #62-42</item>
+        <item>Estación Villa</item>
+    </string-array>
+
+    <string-array name="telefonolugar">
+        <item>+(57)5132269</item>
+        <item>+(57)5168300</item>
+        <item>+(57)4442979</item>
+        <item>+(57)4445500</item>
+        <item>+(57)2118844</item>
+        <item>+(57)5112155</item>
+    </string-array>
 
 
-    <string name="title_activity_maps">Map</string>
+    <array name="iconslugar">
+        <item>@drawable/catedral</item>
+        <item>@drawable/acuario</item>
+        <item>@drawable/arvi</item>
+        <item>@drawable/jardin</item>
+        <item>@drawable/vida</item>
+        <item>@drawable/botero</item>
+    </array>
+
+    <array name="iconslugart">
+        <item>@drawable/catedral2</item>
+        <item>@drawable/acuario2</item>
+        <item>@drawable/arvi2</item>
+        <item>@drawable/jardin2</item>
+        <item>@drawable/vida2</item>
+        <item>@drawable/botero2</item>
+    </array>
+
+    <string-array name="lat_lugar">
+        <item>6.253975</item>
+        <item>6.2708025</item>
+        <item>6.284842</item>
+        <item>6.270465</item>
+        <item>6.261196</item>
+        <item>6.251920</item>
+    </string-array>
+
+    <string-array name="lon_lugar">
+        <item>-75.564391</item>
+        <item>-75.5656966</item>
+        <item>-75.508661</item>
+        <item>-75.563649</item>
+        <item>-75.565924</item>
+        <item>-75.568598</item>
+    </string-array>
+
+    //CINES*****************
+
+    <string-array name="cines">
+        <item>El Tesoro</item>
+        <item>Florida</item>
+        <item>Las Américas</item>
+        <item>Mayorca</item>
+        <item>Multicine La 65</item>
+        <item>Oviedo</item>
+    </string-array>
+
+    <string-array name="tipocine">
+        <item>Cinemark</item>
+        <item>Procinal</item>
+        <item>Procinal</item>
+        <item>Procinal</item>
+        <item>Royal Films</item>
+        <item>Cine Colombia</item>
+    </string-array>
+
+    <string-array name="direccioncine">
+        <item>Transversal Superior Carrera 25A # 1A-Sur45</item>
+        <item>Calle 71 # 65 - 150</item>
+        <item>Diagonal 75B # 2A - 120</item>
+        <item>Calle 51 Sur # 48-57</item>
+        <item>Calle 47D # 65-115</item>
+        <item>Calle 6 Sur # 43A-227</item>
+    </string-array>
+
+    <string-array name="telefonocine">
+        <item>+(57)3210974</item>
+        <item>+(57)4422944</item>
+        <item>+(57)4442244</item>
+        <item>+(57)4442244</item>
+        <item>+(57)6051587</item>
+        <item>+(57)3602463</item>
+    </string-array>
+
+    <array name="iconscine">
+        <item>@drawable/tesoro</item>
+        <item>@drawable/florida</item>
+        <item>@drawable/americas</item>
+        <item>@drawable/mayorca</item>
+        <item>@drawable/multicine</item>
+        <item>@drawable/oviedo</item>
+    </array>
+
+    <string-array name="lat_cine">
+        <item>6.1979436</item>
+        <item>6.2706695</item>
+        <item>6.2131259</item>
+        <item>6.1616054</item>
+        <item>6.2521168</item>
+        <item>6.199257</item>
+    </string-array>
+
+    <string-array name="lon_cine">
+        <item>-75.5591741</item>
+        <item>-75.579648</item>
+        <item>-75.5982478</item>
+        <item>-75.6049558</item>
+        <item>-75.5875565</item>
+        <item>-75.5753302</item>
+    </string-array>
+
+
+    //TEATROS*****************
+
+    <string-array name="teatro">
+        <item>Teatro Metropolitano</item>
+        <item>Teatro Pablo Tobón Uribe</item>
+        <item>Teatro Universidad de Medellín</item>
+        <item>Casa Teatro El Poblado</item>
+        <item>El Teatrico</item>
+        <item>Teatro Panamericana</item>
+    </string-array>
+
+    <string-array name="tipoteatro">
+        <item>Sala de gran formato</item>
+        <item>Sala de gran formato</item>
+        <item>Sala de gran formato</item>
+        <item>Sala de mediano formato</item>
+        <item>Sala de mediano formato</item>
+        <item>Sala de mediano formato</item>
+    </string-array>
+
+    <string-array name="direccionteatro">
+        <item>Calle 41 # 57-30</item>
+        <item>Carrera 40 # 51-24</item>
+        <item>Carrera 87 # 30-65</item>
+        <item>Carrera 47 B # 17B-Sur 30</item>
+        <item>Transversal 39B # Circular 2-46</item>
+        <item>Carrera 43A No. 6sur-150</item>
+    </string-array>
+
+    <string-array name="telefonoteatro">
+        <item>+(57)2322858</item>
+        <item>+(57)2397500</item>
+        <item>+(57)3405324</item>
+        <item>+(57)3211100</item>
+        <item>+(57)4118878</item>
+        <item>+(57)4936451</item>
+    </string-array>
+
+    <array name="iconsteatro">
+        <item>@drawable/metropolitano</item>
+        <item>@drawable/pablo</item>
+        <item>@drawable/umedellin</item>
+        <item>@drawable/casapoblado</item>
+        <item>@drawable/teatrico</item>
+        <item>@drawable/paname</item>
+    </array>
+
+    <string-array name="lat_teatro">
+        <item>6.2432116</item>
+        <item>6.2475317</item>
+        <item>6.232802</item>
+        <item>6.1881283</item>
+        <item>6.2428364</item>
+        <item>6.1980909</item>
+    </string-array>
+
+    <string-array name="lon_teatro">
+        <item>-75.5775211</item>
+        <item>-75.5616541</item>
+        <item>-75.6126095</item>
+        <item>-75.5830061</item>
+        <item>-75.5952202</item>
+        <item>-75.5760831</item>
+    </string-array>
+
+    <string name="title_activity_maps" translatable="false">Map</string>
 
 
 </resources>

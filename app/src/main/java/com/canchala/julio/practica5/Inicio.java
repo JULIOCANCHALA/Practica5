@@ -14,6 +14,8 @@ public class inicio extends Fragment {
 
     }
 
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -22,4 +24,10 @@ public class inicio extends Fragment {
         return inflater.inflate(R.layout.fragment_inicio, container, false);
 
     }
+
+
+
+
+
+
 }
